@@ -1,0 +1,46 @@
+.menu {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.titulo {
+    align-self: center;
+    width: 80%;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.botones {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    width: 80%;
+    background-image: none;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    border-bottom-width: 0;
+}
+
+.boton-juego {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&guid=d3dd507249881854fbaa9d44a29f0d89&type=3#7");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    background-size: 150px 75px;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.boton-juego:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    scale: 1.15 1.15;
+}

@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BotonRegresa.uss?fileID=7433441132597879392&amp;guid=9e28a3aa2ce0041abab9ac00ffaecb1c&amp;type=3#BotonRegresa" />
+    <engine:VisualElement name="BloqueBoton" style="flex-grow: 1; flex-direction: column-reverse; justify-content: flex-start;">
+        <engine:Button text="Regresar&#10;" name="BotonRegresa" enabled="true" class="boton-regresa" style="width: 110px; height: 50px; margin-bottom: 35px; margin-left: 20px; background-image: url(&quot;project://database/Assets/Buttons/PNG/25Button_Long_Green.png?fileID=21300000&amp;guid=75b6e4700f21ab04198e8b1f956968a0&amp;type=3#25Button_Long_Green&quot;); background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgb(254, 255, 254); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+    </engine:VisualElement>
+</engine:UXML>

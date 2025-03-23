@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/creditos.uss?fileID=7433441132597879392&amp;guid=e357d9f00a42542ffb3356536b19eab3&amp;type=3#creditos" />
+    <engine:VisualElement name="rootCreditos" style="flex-grow: 1; background-color: rgb(86, 86, 86);">
+        <engine:VisualElement name="Encabezado" style="flex-grow: 1; height: auto; background-color: rgb(105, 105, 105); max-height: 100px;">
+            <engine:VisualElement name="Boton" style="flex-grow: 1; flex-direction: row-reverse; height: 5px; width: auto; max-height: 10px;">
+                <engine:Button text="&#10;" name="Cerrar" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/gold/CLOSE-1.png?fileID=2800000&amp;guid=c0b6c38e965c69c4baaec76c33e68cf3&amp;type=3#CLOSE-1&quot;); background-size: 30px 30px; background-color: rgba(100, 100, 100, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            </engine:VisualElement>
+            <engine:VisualElement name="conTitulo" style="flex-grow: 1; margin-top: 30px;">
+                <engine:Label text="Créditos&#10;" name="Titulo" style="font-size: 32px; -unity-text-align: upper-center; color: rgb(209, 180, 58); -unity-font-style: normal;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="ConTexto" style="flex-grow: 1; background-color: rgb(65, 65, 65);">
+            <engine:VisualElement name="espaciador" style="flex-grow: 1;" />
+            <engine:ScrollView name="scrollTexto" enabled="true" mode="Vertical" nested-interaction-kind="Default" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="height: 280px; overflow: hidden; visibility: visible; display: flex; flex-direction: column;">
+                <engine:VisualElement name="conCreditos">
+                    <engine:Label name="creditos" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.&#10;Ut at urna vitae nibh malesuada dictum in convallis dui.&#10;Quisque pellentesque est varius pretium lacinia.&#10;Donec laoreet augue in imperdiet hendrerit.&#10;Ut aliquet purus quis rhoncus gravida.&#10;&#10;Vivamus venenatis nunc in posuere laoreet.&#10;Cras vel lectus a nibh blandit pretium at vel mi.&#10;Curabitur id ante ac dui faucibus convallis.&#10;Etiam ut elit ut nisi malesuada gravida.&#10;&#10;Pellentesque a mauris ac ex ultricies ornare.&#10;&#10;Maecenas laoreet lacus sit amet erat consectetur, et mattis leo aliquet.&#10;Aliquam fermentum lacus ultrices arcu cursus, vel eleifend dolor &#10;tincidunt.&#10;&#10;Nam vehicula orci non justo luctus tempor.&#10;Nullam non nulla vel tortor imperdiet vestibulum vel at erat.&#10;&#10;Phasellus eu turpis eget purus molestie molestie in vel nisl.&#10;&#10;Maecenas accumsan augue convallis tortor tempor volutpat.&#10;Etiam auctor dolor ornare condimentum ullamcorper.&#10;Cras in felis a nisi finibus tincidunt.&#10;&#10;Donec a tellus semper, elementum tellus non, feugiat ipsum.&#10;Praesent consequat odio nec auctor laoreet." enable-rich-text="true" class="creditosStyle" style="-unity-text-align: upper-center;" />
+                </engine:VisualElement>
+            </engine:ScrollView>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
